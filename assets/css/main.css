@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --box1-clr:blue;
+    --box2-clr:red;
+    --box3-clr:yellow;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000;
+}
+
+.box-1 {
+    background-color: var(--box1-clr);
+}
+
+.box-2 {
+    background-color: var(--box2-clr);
+}
+
+.box-3 {
+    background-color: var(--box3-clr);
+}
